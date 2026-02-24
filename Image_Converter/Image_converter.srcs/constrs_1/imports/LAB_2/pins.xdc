@@ -1,0 +1,6 @@
+set_property IOSTANDARD LVCMOS33 [get_ports led_of]
+set_property IOSTANDARD LVCMOS33 [get_ports led_ok]
+set_property IOSTANDARD LVCMOS33 [get_ports led_uf]
+set_property PACKAGE_PIN U16 [get_ports led_of]
+set_property PACKAGE_PIN E19 [get_ports led_ok]
+set_property PACKAGE_PIN U19 [get_ports led_uf]

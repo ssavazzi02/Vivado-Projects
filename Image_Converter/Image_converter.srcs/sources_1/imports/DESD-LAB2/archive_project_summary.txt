@@ -1,0 +1,623 @@
+***************************************************************************************
+*                      PROJECT ARCHIVE SUMMARY REPORT
+*
+*                      (archive_project_summary.txt)
+*
+*  PLEASE READ THIS REPORT TO GET THE DETAILED INFORMATION ABOUT THE PROJECT DATA THAT
+*  WAS ARCHIVED FOR THE CURRENT PROJECT
+*
+* The report is divided into following five sections:-
+*
+* Section (1) - PROJECT INFORMATION
+*  This section provides the details of the current project that was archived
+*
+* Section (2) - INCLUDED/EXCLUDED RUNS
+*  This section summarizes the list of design runs for which the results were included
+*  or excluded from the archive
+*
+* Section (3) - ARCHIVED SOURCES
+*  This section summarizes the list of files that were added to the archive
+*
+* Section (3.1) - INCLUDE FILES
+*  This section summarizes the list of 'include' files that were added to the archive
+*
+* Section (3.1.1) - INCLUDE_DIRS SETTINGS
+*  This section summarizes the 'verilog include directory' path settings, if any
+*
+* Section (3.2) - REMOTE SOURCES
+*  This section summarizes the list of referenced 'remote' files that were 'imported'
+*  into the archived project
+*
+* Section (3.3) - SOURCES SUMMARY
+*  This section summarizes the list of all the files present in the archive
+*
+* Section (3.4) - REMOTE IP DEFINITIONS
+*  This section summarizes the list of all the remote IP's present in the archive
+*
+* Section (4) - JOURNAL/LOG FILES
+*  This section summarizes the list of journal/log files that were added to the archive
+*
+* Section (5) - CONFIGURATION SETTINGS/FILES
+*  This section summarizes the configuration settings/files that were added to the archive
+*
+***************************************************************************************
+
+Section (1) - PROJECT INFORMATION
+---------------------------------
+Name      = DESD-LAB2
+Directory = /home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/DESD-LAB2
+
+WARNING: Please verify the compiled library directory path for the following property in the
+         current project. The path may point to an invalid location after opening this project.
+         This could happen if the project was unarchived in a location where this path is not
+         accessible. To resolve this issue, please set this property with the desired path
+         before launching simulation:-
+
+Property = compxlib.xsim_compiled_library_dir
+Path     = 
+
+Section (2) - INCLUDED RUNS
+---------------------------
+The run results were included for the following runs in the archived project:-
+
+<synth_1>
+<design_1_AXI4Stream_UART_0_0_synth_1>
+<design_1_clk_wiz_0_0_synth_1>
+<design_1_proc_sys_reset_0_0_synth_1>
+<design_1_img_conv_0_0_synth_1>
+<design_1_bram_writer_0_0_synth_1>
+<design_1_rgb2gray_0_0_synth_1>
+<design_1_led_blinker_0_0_synth_1>
+<design_1_led_blinker_0_1_synth_1>
+<design_1_led_blinker_0_2_synth_1>
+<design_1_packetizer_0_1_synth_1>
+<design_1_depacketizer_0_0_synth_1>
+<impl_1>
+
+Section (3) - ARCHIVED SOURCES
+------------------------------
+The following sub-sections describes the list of sources that were archived for the current project:-
+
+Section (3.1) - INCLUDE FILES
+-----------------------------
+List of referenced 'RTL Include' files that were 'imported' into the archived project:-
+
+None
+
+Section (3.1.1) - INCLUDE_DIRS SETTINGS
+---------------------------------------
+List of the "INCLUDE_DIRS" fileset property settings that may or may not be applicable in the archived
+project, since most the 'RTL Include' files referenced in the original project were 'imported' into the
+archived project.
+
+<sources_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+<sim_1> fileset RTL include directory paths (INCLUDE_DIRS):-
+None
+
+Section (3.2) - REMOTE SOURCES
+------------------------------
+List of referenced 'remote' design files that were 'imported' into the archived project:-
+
+<design_1_AXI4Stream_UART_0_0>
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd
+
+<design_1_bram_writer_0_0>
+None
+
+<design_1_clk_wiz_0_0>
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+
+<design_1_depacketizer_0_0>
+None
+
+<design_1_img_conv_0_0>
+None
+
+<design_1_led_blinker_0_0>
+None
+
+<design_1_led_blinker_0_1>
+None
+
+<design_1_led_blinker_0_2>
+None
+
+<design_1_packetizer_0_1>
+None
+
+<design_1_proc_sys_reset_0_0>
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+
+<design_1_rgb2gray_0_0>
+None
+
+<constrs_1>
+None
+
+<sim_1>
+None
+
+<sources_1>
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/led_blinker.vhd
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/packetizer.vhd
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/depacketizer.vhd
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/img_conv.vhd
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/division_lut.vhd
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/rgb2gray.vhd
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/bram_writer.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog/ltlib_v1_0_0_ver.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/ltlib_v1_0_vl_rfs.v
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/122e/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/122e/hdl/verilog/xsdbs_v1_0_2_in.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/2751/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/e6d5/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_i2x.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_in.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_icn.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_ext.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_core.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_ports.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bsid_ports.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bsid_vec_ports.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_vec.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_sl_prt_map.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_id_map.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_id_vec_map.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/xsdbm_v3_0_vl_rfs.v
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/2985/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_ver.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/ila_v6_2_syn_rfs.v
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_in.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_param.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_lparam.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_lib_fn.vh
+/home/gbonanno/.Xil/Vivado-2696089-gbonanno-b450gamingx/PrjAr/_X_/DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d322/hdl/gigantic_mux_v1_0_cntr.v
+/home/gbonanno/Documents/DIdattica/DESD2025/LAB2/template/DESD-LAB2/archive_project_summary.txt
+
+<utils_1>
+None
+
+Section (3.3) - SOURCES SUMMARY
+-------------------------------
+List of all the source files present in the archived project:-
+
+<sources_1>
+./DESD-LAB2.srcs/sources_1/imports/template/led_blinker.vhd
+./DESD-LAB2.srcs/sources_1/imports/template/packetizer.vhd
+./DESD-LAB2.srcs/sources_1/imports/template/depacketizer.vhd
+./DESD-LAB2.srcs/sources_1/imports/template/img_conv.vhd
+./DESD-LAB2.srcs/sources_1/imports/template/division_lut.vhd
+./DESD-LAB2.srcs/sources_1/imports/template/rgb2gray.vhd
+./DESD-LAB2.srcs/sources_1/imports/LAB_2/bram_controller.vhd
+./DESD-LAB2.srcs/sources_1/imports/template/bram_writer.vhd
+./DESD-LAB2.srcs/sources_1/bd/design_1/design_1.bd
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/sim/design_1_AXI4Stream_UART_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c.bd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/bd_f60c_ila_lib_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/sim/bd_f60c_ila_lib_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog/ltlib_v1_0_0_ver.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog/ltlib_v1_0_0_lib_fn.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/1b7e/hdl/ltlib_v1_0_vl_rfs.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/122e/hdl/verilog/xsdbs_v1_0_2_i2x.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/122e/hdl/verilog/xsdbs_v1_0_2_in.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/122e/hdl/xsdbs_v1_0_vl_rfs.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/2751/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/e6d5/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_i2x.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_in.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_icn.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_ext.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_core.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_ports.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bsid_ports.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bsid_vec_ports.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_vec.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_sl_prt_map.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_id_map.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/verilog/xsdbm_v3_0_0_id_vec_map.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/b205/hdl/xsdbm_v3_0_vl_rfs.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/2985/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_ver.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/ila_v6_2_syn_rfs.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_in.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_param.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_lparam.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/c968/hdl/verilog/ila_v6_2_11_ila_lib_fn.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/bd_f60c_ila_lib_0_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/synth/bd_f60c_ila_lib_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/bd_f60c_ila_lib_0.xml
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d322/hdl/gigantic_mux_v1_0_cntr.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/mux_core.txt
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/sim/bd_f60c_g_inst_0.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/synth/bd_f60c_g_inst_0.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0.xml
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/bd_f60c.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/sim/bd_f60c.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/sim/bd_f60c.protoinst
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0.hwh
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/hw_handoff/design_1_system_ila_0_0_bd.tcl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/synth/design_1_system_ila_0_0.hwdef
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/synth/design_1_system_ila_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/sim/design_1_led_blinker_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/sim/design_1_packetizer_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/sim/design_1_depacketizer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/sim/design_1_img_conv_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/sim/design_1_rgb2gray_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/sim/design_1_bram_writer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/sim/design_1_led_blinker_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1.xml
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/sim/design_1_led_blinker_0_2.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2.xml
+./DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/sim/design_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/design_1_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+./DESD-LAB2.gen/sources_1/bd/design_1/design_1.bda
+./DESD-LAB2.gen/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+./DESD-LAB2.gen/sources_1/bd/design_1/synth/design_1.hwdef
+./DESD-LAB2.gen/sources_1/bd/design_1/sim/design_1.protoinst
+./DESD-LAB2.srcs/sources_1/imports/design_1_wrapper.vhd
+./DESD-LAB2.srcs/sources_1/imports/template/DESD-LAB2/archive_project_summary.txt
+
+<constrs_1>
+./DESD-LAB2.srcs/constrs_1/imports/LAB_2/pins.xdc
+
+<sim_1>
+./DESD-LAB2.srcs/sim_1/imports/LAB_2/img_conv_tb.vhd
+
+<utils_1>
+None
+
+<design_1_AXI4Stream_UART_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_board.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_M00_AXIS_RX.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0_S00_AXIS_TX.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Engine.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/UART_Manager.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8f9c/hdl/AXI4Stream_UART_v1_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/sim/design_1_AXI4Stream_UART_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/synth/design_1_AXI4Stream_UART_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_AXI4Stream_UART_0_0/design_1_AXI4Stream_UART_0_0.xml
+
+<design_1_clk_wiz_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_mmcm.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_7s_pll.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_mmcm.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_pll.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_pll.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/d0f7/mmcm_pll_drp_func_us_plus_mmcm.vh
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_clk_wiz.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xml
+
+<design_1_proc_sys_reset_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/ef1e/hdl/lib_cdc_v1_0_rfs.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ipshared/8842/hdl/proc_sys_reset_v5_0_vh_rfs.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/synth/design_1_proc_sys_reset_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_ooc.xdc
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xml
+
+<design_1_img_conv_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/sim/design_1_img_conv_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/synth/design_1_img_conv_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_img_conv_0_0/design_1_img_conv_0_0.xml
+
+<design_1_bram_writer_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/sim/design_1_bram_writer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/synth/design_1_bram_writer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_bram_writer_0_0/design_1_bram_writer_0_0.xml
+
+<design_1_rgb2gray_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/sim/design_1_rgb2gray_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/synth/design_1_rgb2gray_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_rgb2gray_0_0/design_1_rgb2gray_0_0.xml
+
+<design_1_led_blinker_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/sim/design_1_led_blinker_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/synth/design_1_led_blinker_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_0/design_1_led_blinker_0_0.xml
+
+<design_1_led_blinker_0_1>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/sim/design_1_led_blinker_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/synth/design_1_led_blinker_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_1/design_1_led_blinker_0_1.xml
+
+<design_1_led_blinker_0_2>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/sim/design_1_led_blinker_0_2.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/synth/design_1_led_blinker_0_2.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_led_blinker_0_2/design_1_led_blinker_0_2.xml
+
+<design_1_packetizer_0_1>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/sim/design_1_packetizer_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/synth/design_1_packetizer_0_1.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_packetizer_0_1/design_1_packetizer_0_1.xml
+
+<design_1_depacketizer_0_0>
+./DESD-LAB2.srcs/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0.xci
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/sim/design_1_depacketizer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0.dcp
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_stub.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_stub.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_sim_netlist.v
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0_sim_netlist.vhdl
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/synth/design_1_depacketizer_0_0.vhd
+./DESD-LAB2.gen/sources_1/bd/design_1/ip/design_1_depacketizer_0_0/design_1_depacketizer_0_0.xml
+
+Section (3.4) - REMOTE IP DEFINITIONS
+-------------------------------------
+List of all the remote IP's present in the archived project:-
+
+<sources_1>
+./DESD-LAB2.ipdefs/IPs/AXI4-Stream_UART
+
+<design_1_AXI4Stream_UART_0_0>
+None
+
+<design_1_clk_wiz_0_0>
+None
+
+<design_1_proc_sys_reset_0_0>
+None
+
+<design_1_img_conv_0_0>
+None
+
+<design_1_bram_writer_0_0>
+None
+
+<design_1_rgb2gray_0_0>
+None
+
+<design_1_led_blinker_0_0>
+None
+
+<design_1_led_blinker_0_1>
+None
+
+<design_1_led_blinker_0_2>
+None
+
+<design_1_packetizer_0_1>
+None
+
+<design_1_depacketizer_0_0>
+None
+
+None
+
+Section (4) - JOURNAL/LOG FILES
+-------------------------------
+List of Journal/Log files that were added to the archived project:-
+
+Source File = /home/gbonanno/vivado.jou
+Archived Location = ./DESD-LAB2/vivado.jou
+
+Source File = /home/gbonanno/vivado.log
+Archived Location = ./DESD-LAB2/vivado.log
+
+Section (5) - CONFIGURATION SETTINGS/FILES
+------------------------------------------
+List of configuration settings/files that were added to the archived project:-
+
+

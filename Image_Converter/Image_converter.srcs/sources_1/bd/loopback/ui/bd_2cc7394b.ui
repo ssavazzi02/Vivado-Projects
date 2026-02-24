@@ -1,0 +1,30 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.84537",
+   "Default View_TopLeft":"-256,-260",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 4 -x 980 -y 70 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x -280 -y 220 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x -280 -y 190 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x -70 -y 210 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x -70 -y 60 -defaultsOSRD
+preplace inst AXI4Stream_UART_0 -pg 1 -lvl 3 -x 810 -y 60 -defaultsOSRD
+preplace inst packetizer_0 -pg 1 -lvl 2 -x 450 -y 330 -defaultsOSRD
+preplace inst depacketizer_0 -pg 1 -lvl 2 -x 450 -y 50 -defaultsOSRD
+preplace netloc sys_clock_1 1 0 1 NJ 220
+preplace netloc clk_wiz_0_clk_out1 1 0 3 -260 -50 120 -70 580
+preplace netloc clk_wiz_0_locked 1 0 2 -250 -40 100
+preplace netloc reset_1 1 0 1 -260 40n
+preplace netloc proc_sys_reset_0_peripheral_reset 1 1 2 110 -40 570J
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 130 130 600
+preplace netloc AXI4Stream_UART_0_UART 1 3 1 N 70
+preplace netloc AXI4Stream_UART_0_M00_AXIS_RX 1 1 3 130 -60 NJ -60 960
+preplace netloc depacketizer_0_m_axis 1 1 2 140 -30 560
+preplace netloc packetizer_0_m_axis 1 2 1 590 0n
+levelinfo -pg 1 -280 -70 450 810 980
+pagesize -pg 1 -db -bbox -sgen -390 -80 1090 530
+"
+}
+0

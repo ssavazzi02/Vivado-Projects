@@ -1,0 +1,552 @@
+{
+    "design": {
+        "design_info": {
+            "boundary_crc": "0x9157799052A71E23",
+            "device": "xc7a35tcpg236-1",
+            "gen_directory": "../../../../Image_converter.gen/sources_1/bd/loopback",
+            "name": "loopback",
+            "rev_ctrl_bd_flag": "RevCtrlBdOff",
+            "synth_flow_mode": "Hierarchical",
+            "tool_version": "2020.2",
+            "validated": "true"
+        },
+        "design_tree": {
+            "clk_wiz_0": "",
+            "proc_sys_reset_0": "",
+            "AXI4Stream_UART_0": "",
+            "packetizer_0": "",
+            "depacketizer_0": ""
+        },
+        "interface_ports": {
+            "usb_uart": {
+                "mode": "Master",
+                "vlnv": "xilinx.com:interface:uart_rtl:1.0"
+            }
+        },
+        "ports": {
+            "sys_clock": {
+                "type": "clk",
+                "direction": "I",
+                "parameters": {
+                    "CLK_DOMAIN": {
+                        "value": "loopback_sys_clock",
+                        "value_src": "default"
+                    },
+                    "FREQ_HZ": {
+                        "value": "100000000"
+                    },
+                    "FREQ_TOLERANCE_HZ": {
+                        "value": "0",
+                        "value_src": "default"
+                    },
+                    "INSERT_VIP": {
+                        "value": "0",
+                        "value_src": "default"
+                    },
+                    "PHASE": {
+                        "value": "0.000"
+                    }
+                }
+            },
+            "reset": {
+                "type": "rst",
+                "direction": "I",
+                "parameters": {
+                    "INSERT_VIP": {
+                        "value": "0",
+                        "value_src": "default"
+                    },
+                    "POLARITY": {
+                        "value": "ACTIVE_HIGH"
+                    }
+                }
+            }
+        },
+        "components": {
+            "clk_wiz_0": {
+                "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+                "xci_name": "loopback_clk_wiz_0_0",
+                "xci_path": "ip\\loopback_clk_wiz_0_0\\loopback_clk_wiz_0_0.xci",
+                "inst_hier_path": "clk_wiz_0",
+                "parameters": {
+                    "CLK_IN1_BOARD_INTERFACE": {
+                        "value": "sys_clock"
+                    },
+                    "RESET_BOARD_INTERFACE": {
+                        "value": "reset"
+                    },
+                    "USE_BOARD_FLOW": {
+                        "value": "true"
+                    }
+                }
+            },
+            "proc_sys_reset_0": {
+                "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+                "xci_name": "loopback_proc_sys_reset_0_0",
+                "xci_path": "ip\\loopback_proc_sys_reset_0_0\\loopback_proc_sys_reset_0_0.xci",
+                "inst_hier_path": "proc_sys_reset_0"
+            },
+            "AXI4Stream_UART_0": {
+                "vlnv": "DigiLAB:ip:AXI4Stream_UART:1.1",
+                "xci_name": "loopback_AXI4Stream_UART_0_0",
+                "xci_path": "ip\\loopback_AXI4Stream_UART_0_0\\loopback_AXI4Stream_UART_0_0.xci",
+                "inst_hier_path": "AXI4Stream_UART_0",
+                "parameters": {
+                    "UART_BOARD_INTERFACE": {
+                        "value": "usb_uart"
+                    },
+                    "USE_BOARD_FLOW": {
+                        "value": "true"
+                    }
+                }
+            },
+            "packetizer_0": {
+                "vlnv": "xilinx.com:module_ref:packetizer:1.0",
+                "xci_name": "loopback_packetizer_0_0",
+                "xci_path": "ip\\loopback_packetizer_0_0\\loopback_packetizer_0_0.xci",
+                "inst_hier_path": "packetizer_0",
+                "reference_info": {
+                    "ref_type": "hdl",
+                    "ref_name": "packetizer",
+                    "boundary_crc": "0x0"
+                },
+                "interface_ports": {
+                    "m_axis": {
+                        "mode": "Master",
+                        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+                        "parameters": {
+                            "TDATA_NUM_BYTES": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "TDEST_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TID_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TUSER_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TREADY": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "HAS_TSTRB": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TKEEP": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TLAST": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "FREQ_HZ": {
+                                "value": "100000000",
+                                "value_src": "ip_prop"
+                            },
+                            "PHASE": {
+                                "value": "0.0",
+                                "value_src": "ip_prop"
+                            },
+                            "CLK_DOMAIN": {
+                                "value": "/clk_wiz_0_clk_out1",
+                                "value_src": "ip_prop"
+                            }
+                        },
+                        "port_maps": {
+                            "TDATA": {
+                                "physical_name": "m_axis_tdata",
+                                "direction": "O",
+                                "left": "7",
+                                "right": "0"
+                            },
+                            "TVALID": {
+                                "physical_name": "m_axis_tvalid",
+                                "direction": "O"
+                            },
+                            "TREADY": {
+                                "physical_name": "m_axis_tready",
+                                "direction": "I"
+                            }
+                        }
+                    },
+                    "s_axis": {
+                        "mode": "Slave",
+                        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+                        "parameters": {
+                            "TDATA_NUM_BYTES": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "TDEST_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TID_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TUSER_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TREADY": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "HAS_TSTRB": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TKEEP": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TLAST": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "FREQ_HZ": {
+                                "value": "100000000",
+                                "value_src": "ip_prop"
+                            },
+                            "PHASE": {
+                                "value": "0.0",
+                                "value_src": "ip_prop"
+                            },
+                            "CLK_DOMAIN": {
+                                "value": "/clk_wiz_0_clk_out1",
+                                "value_src": "ip_prop"
+                            }
+                        },
+                        "port_maps": {
+                            "TDATA": {
+                                "physical_name": "s_axis_tdata",
+                                "direction": "I",
+                                "left": "7",
+                                "right": "0"
+                            },
+                            "TLAST": {
+                                "physical_name": "s_axis_tlast",
+                                "direction": "I"
+                            },
+                            "TVALID": {
+                                "physical_name": "s_axis_tvalid",
+                                "direction": "I"
+                            },
+                            "TREADY": {
+                                "physical_name": "s_axis_tready",
+                                "direction": "O"
+                            }
+                        }
+                    }
+                },
+                "ports": {
+                    "clk": {
+                        "type": "clk",
+                        "direction": "I",
+                        "parameters": {
+                            "ASSOCIATED_BUSIF": {
+                                "value": "m_axis:s_axis",
+                                "value_src": "constant"
+                            },
+                            "ASSOCIATED_RESET": {
+                                "value": "aresetn",
+                                "value_src": "constant"
+                            },
+                            "FREQ_HZ": {
+                                "value": "100000000",
+                                "value_src": "ip_prop"
+                            },
+                            "PHASE": {
+                                "value": "0.0",
+                                "value_src": "ip_prop"
+                            },
+                            "CLK_DOMAIN": {
+                                "value": "/clk_wiz_0_clk_out1",
+                                "value_src": "ip_prop"
+                            }
+                        }
+                    },
+                    "aresetn": {
+                        "type": "rst",
+                        "direction": "I",
+                        "parameters": {
+                            "POLARITY": {
+                                "value": "ACTIVE_LOW",
+                                "value_src": "constant"
+                            }
+                        }
+                    }
+                }
+            },
+            "depacketizer_0": {
+                "vlnv": "xilinx.com:module_ref:depacketizer:1.0",
+                "xci_name": "loopback_depacketizer_0_0",
+                "xci_path": "ip\\loopback_depacketizer_0_0\\loopback_depacketizer_0_0.xci",
+                "inst_hier_path": "depacketizer_0",
+                "reference_info": {
+                    "ref_type": "hdl",
+                    "ref_name": "depacketizer",
+                    "boundary_crc": "0x0"
+                },
+                "interface_ports": {
+                    "m_axis": {
+                        "mode": "Master",
+                        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+                        "parameters": {
+                            "TDATA_NUM_BYTES": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "TDEST_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TID_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TUSER_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TREADY": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "HAS_TSTRB": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TKEEP": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TLAST": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "FREQ_HZ": {
+                                "value": "100000000",
+                                "value_src": "ip_prop"
+                            },
+                            "PHASE": {
+                                "value": "0.0",
+                                "value_src": "ip_prop"
+                            },
+                            "CLK_DOMAIN": {
+                                "value": "/clk_wiz_0_clk_out1",
+                                "value_src": "ip_prop"
+                            }
+                        },
+                        "port_maps": {
+                            "TDATA": {
+                                "physical_name": "m_axis_tdata",
+                                "direction": "O",
+                                "left": "7",
+                                "right": "0"
+                            },
+                            "TLAST": {
+                                "physical_name": "m_axis_tlast",
+                                "direction": "O"
+                            },
+                            "TVALID": {
+                                "physical_name": "m_axis_tvalid",
+                                "direction": "O"
+                            },
+                            "TREADY": {
+                                "physical_name": "m_axis_tready",
+                                "direction": "I"
+                            }
+                        }
+                    },
+                    "s_axis": {
+                        "mode": "Slave",
+                        "vlnv": "xilinx.com:interface:axis_rtl:1.0",
+                        "parameters": {
+                            "TDATA_NUM_BYTES": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "TDEST_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TID_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "TUSER_WIDTH": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TREADY": {
+                                "value": "1",
+                                "value_src": "constant"
+                            },
+                            "HAS_TSTRB": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TKEEP": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "HAS_TLAST": {
+                                "value": "0",
+                                "value_src": "constant"
+                            },
+                            "FREQ_HZ": {
+                                "value": "100000000",
+                                "value_src": "ip_prop"
+                            },
+                            "PHASE": {
+                                "value": "0.0",
+                                "value_src": "ip_prop"
+                            },
+                            "CLK_DOMAIN": {
+                                "value": "/clk_wiz_0_clk_out1",
+                                "value_src": "ip_prop"
+                            }
+                        },
+                        "port_maps": {
+                            "TDATA": {
+                                "physical_name": "s_axis_tdata",
+                                "direction": "I",
+                                "left": "7",
+                                "right": "0"
+                            },
+                            "TVALID": {
+                                "physical_name": "s_axis_tvalid",
+                                "direction": "I"
+                            },
+                            "TREADY": {
+                                "physical_name": "s_axis_tready",
+                                "direction": "O"
+                            }
+                        }
+                    }
+                },
+                "ports": {
+                    "clk": {
+                        "type": "clk",
+                        "direction": "I",
+                        "parameters": {
+                            "ASSOCIATED_BUSIF": {
+                                "value": "m_axis:s_axis",
+                                "value_src": "constant"
+                            },
+                            "ASSOCIATED_RESET": {
+                                "value": "aresetn",
+                                "value_src": "constant"
+                            },
+                            "FREQ_HZ": {
+                                "value": "100000000",
+                                "value_src": "ip_prop"
+                            },
+                            "PHASE": {
+                                "value": "0.0",
+                                "value_src": "ip_prop"
+                            },
+                            "CLK_DOMAIN": {
+                                "value": "/clk_wiz_0_clk_out1",
+                                "value_src": "ip_prop"
+                            }
+                        }
+                    },
+                    "aresetn": {
+                        "type": "rst",
+                        "direction": "I",
+                        "parameters": {
+                            "POLARITY": {
+                                "value": "ACTIVE_LOW",
+                                "value_src": "constant"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "interface_nets": {
+            "AXI4Stream_UART_0_M00_AXIS_RX": {
+                "interface_ports": [
+                    "AXI4Stream_UART_0/M00_AXIS_RX",
+                    "depacketizer_0/s_axis"
+                ]
+            },
+            "depacketizer_0_m_axis": {
+                "interface_ports": [
+                    "depacketizer_0/m_axis",
+                    "packetizer_0/s_axis"
+                ]
+            },
+            "AXI4Stream_UART_0_UART": {
+                "interface_ports": [
+                    "usb_uart",
+                    "AXI4Stream_UART_0/UART"
+                ]
+            },
+            "packetizer_0_m_axis": {
+                "interface_ports": [
+                    "packetizer_0/m_axis",
+                    "AXI4Stream_UART_0/S00_AXIS_TX"
+                ]
+            }
+        },
+        "nets": {
+            "sys_clock_1": {
+                "ports": [
+                    "sys_clock",
+                    "clk_wiz_0/clk_in1"
+                ]
+            },
+            "clk_wiz_0_clk_out1": {
+                "ports": [
+                    "clk_wiz_0/clk_out1",
+                    "proc_sys_reset_0/slowest_sync_clk",
+                    "AXI4Stream_UART_0/clk_uart",
+                    "AXI4Stream_UART_0/m00_axis_rx_aclk",
+                    "AXI4Stream_UART_0/s00_axis_tx_aclk",
+                    "packetizer_0/clk",
+                    "depacketizer_0/clk"
+                ]
+            },
+            "clk_wiz_0_locked": {
+                "ports": [
+                    "clk_wiz_0/locked",
+                    "proc_sys_reset_0/dcm_locked"
+                ]
+            },
+            "reset_1": {
+                "ports": [
+                    "reset",
+                    "clk_wiz_0/reset",
+                    "proc_sys_reset_0/ext_reset_in"
+                ]
+            },
+            "proc_sys_reset_0_peripheral_reset": {
+                "ports": [
+                    "proc_sys_reset_0/peripheral_reset",
+                    "AXI4Stream_UART_0/rst"
+                ]
+            },
+            "proc_sys_reset_0_peripheral_aresetn": {
+                "ports": [
+                    "proc_sys_reset_0/peripheral_aresetn",
+                    "depacketizer_0/aresetn",
+                    "packetizer_0/aresetn",
+                    "AXI4Stream_UART_0/s00_axis_tx_aresetn",
+                    "AXI4Stream_UART_0/m00_axis_rx_aresetn"
+                ]
+            }
+        }
+    }
+}
