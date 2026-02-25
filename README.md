@@ -43,4 +43,4 @@ files of the Vivado project available in the project folder.
 
 ## Author
 
-Smauele Savazzi
+Samuele Savazzi
