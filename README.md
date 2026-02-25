@@ -6,17 +6,20 @@ Collection of FPGA-based digital systems developed as academic projects using Xi
 
  1. Audio Console – Artix-7
 
-Real-time audio processing system implemented on FPGA.
+Real-time audio processing system with different possible effects implemented on FPGA.
 
- Features
+ written blocks:
 - SPI joystick interface
-- I2S2 audio module
-- Volume-controlled LED animations
+- volume controller
+- effect-controlled LED animations on joystick
+- effect selector
+- volume-controlled LED level animation on board
 - Moving average filter
 - LFO modulation
-- Stereo panning
+- mute controller
+- sound balance controller
 
-Full Vivado project available in the project folder.
+files of the Vivado project available in the project folder.
 
 ---
 
@@ -32,7 +35,7 @@ written blocks:
 - rgb to gray
 - bram writer
 
-Full Vivado project available in the project folder.
+files of the Vivado project available in the project folder.
 
 ---
 
